@@ -65,9 +65,7 @@ if __name__ == '__main__' :
             result=wikipedia.summary(query,sentences=2)
             speak("According to Wikipedia")
             print(result)
-            speak(result)
-        elif "abuse" in query:
-            speak("You Bloody Shit")    
+            speak(result)    
         elif "open youtube" in query:
             webbrowser.open("youtube.com")
         elif "open stackoverflow" in query:
